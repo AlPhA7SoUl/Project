@@ -1,3 +1,9 @@
+"""
+Ushbu Python class - CloneRange o'rnatilgan range funktsiyasini mimika 
+qilish uchun mo'ljallangan, ammo ba'zi o'zgarishlar bilan. Sinf ham postitve, 
+ham negative qadam bilan ishlaydi va uni eng ajralib turadigan joyi shundaki, 
+CloneRange classda float type dagi sonlarni ishlatsa boladi.
+"""
 class CloneRange:
     def __init__(self, start, stop=None, step=1):
         if stop is None:
